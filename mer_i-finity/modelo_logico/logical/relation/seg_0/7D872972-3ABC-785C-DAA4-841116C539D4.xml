@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Login_cadastro" directorySegmentName="seg_0" id="7D872972-3ABC-785C-DAA4-841116C539D4">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:43:10 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="975D542A-0144-8D36-7F80-D6A354CB61FC" value="true"/>
+</engineerTo>
+<sourcePk>630C06FC-2FD5-0749-443E-3B56DA165406</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8F4A38C8-369E-B5CA-3F9A-64E64CF43EC6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>55EEC480-40C6-A884-822E-CE1AE8C0BDB5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

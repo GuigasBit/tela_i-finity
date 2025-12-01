@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F4A38C8-369E-B5CA-3F9A-64E64CF43EC6" name="T_MLI_Login">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:22:06 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="975D542A-0144-8D36-7F80-D6A354CB61FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_login" id="E7C0D5B9-EDFC-77DA-2047-579DBFC67F49">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:22:16 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="975D542A-0144-8D36-7F80-D6A354CB61FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_email" id="66AA8496-9BB3-6CAA-9761-02E54D4B3955">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:23:04 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="975D542A-0144-8D36-7F80-D6A354CB61FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_senha" id="32066128-6906-71A5-DA10-600E95953E88">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:23:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="975D542A-0144-8D36-7F80-D6A354CB61FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="630C06FC-2FD5-0749-443E-3B56DA165406" name="Login PK">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:23:01 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="975D542A-0144-8D36-7F80-D6A354CB61FC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E7C0D5B9-EDFC-77DA-2047-579DBFC67F49</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A22A3F0-929C-E928-B2A8-D5DFCB0D4C23" name="T_MLI_Adicionar_Itens">
+<createdBy>guilh</createdBy>
+<createdTime>2025-11-04 17:17:52 UTC</createdTime>
+<generatorID>2834FF88-15AB-27EF-77DE-E8B5559043F9</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<ordsAlias>adicionar_itens</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_item" id="A6508638-C4BE-78D2-32D5-5147427CFD33">
+<createdBy>guilh</createdBy>
+<createdTime>2025-11-04 17:17:52 UTC</createdTime>
+<generatorID>112A1C4D-4758-FF8E-69D3-23D910EAB1B5</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_item" id="9DC5F7D6-3949-A947-BC20-F73A361D7447">
+<createdBy>guilh</createdBy>
+<createdTime>2025-11-04 17:17:52 UTC</createdTime>
+<generatorID>D41FCF93-83C2-AE34-0BC6-3B7158F0AC4B</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_item" id="9AFFB5C0-1548-CA30-F82E-6AC767938F28">
+<createdBy>guilh</createdBy>
+<createdTime>2025-11-04 17:17:52 UTC</createdTime>
+<generatorID>36926229-2F13-D68E-BC23-55FC1B6551BA</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_hora_created" id="7770D834-4717-47B3-C7C7-D88C72D3FA34">
+<createdBy>guilh</createdBy>
+<createdTime>2025-11-04 17:17:52 UTC</createdTime>
+<generatorID>4EE6447E-68B3-6CCF-1DF7-754FE0CF49B0</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDAEA160-106B-3B17-1B7C-A1E8AA51EA73" name="Adicionar_Itens_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2025-11-04 17:17:52 UTC</createdTime>
+<generatorID>DFA7CFA3-3A40-C323-F185-5C575C6032EC</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6508638-C4BE-78D2-32D5-5147427CFD33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

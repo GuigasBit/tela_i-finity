@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_relacional" id="8FF0DEA5-396C-AE89-F68B-A658BF4C1960" version="3.5">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:21:24 UTC</createdTime>
+<ownerDesignName>modelo_logico_ifinity</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8FF0DEA5-396C-AE89-F68B-A658BF4C1960</designId>
+</OSDM_Design>

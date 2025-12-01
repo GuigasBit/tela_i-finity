@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Login_Fonte_Rendimento" directorySegmentName="seg_0" id="F1A31CB7-6E7A-80DC-D747-8F3F8C8B2B29">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:47:24 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="975D542A-0144-8D36-7F80-D6A354CB61FC" value="true"/>
+</engineerTo>
+<sourcePk>630C06FC-2FD5-0749-443E-3B56DA165406</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8F4A38C8-369E-B5CA-3F9A-64E64CF43EC6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EB6741B6-A319-0C41-1DB0-641ED077D261</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

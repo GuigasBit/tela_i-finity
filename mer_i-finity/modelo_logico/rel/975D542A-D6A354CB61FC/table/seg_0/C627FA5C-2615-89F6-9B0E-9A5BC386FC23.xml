@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C627FA5C-2615-89F6-9B0E-9A5BC386FC23" name="T_MLI_Endereço_Usuario">
+<createdBy>guilh</createdBy>
+<createdTime>2025-11-04 17:17:52 UTC</createdTime>
+<generatorID>343B7203-FC74-1C04-1E82-DEABC86954C6</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_endereco" id="646577C9-8B6B-ED57-11D1-07B32C29167D">
+<createdBy>guilh</createdBy>
+<createdTime>2025-11-04 17:17:52 UTC</createdTime>
+<generatorID>B8A0A474-B54C-1991-73C4-371947B5A82C</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_endereco" id="F2913552-D73C-5F0B-87BB-49366F62E762">
+<createdBy>guilh</createdBy>
+<createdTime>2025-11-04 17:17:52 UTC</createdTime>
+<generatorID>4B36C564-EE6E-6203-F867-D858AE456EDE</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9313AEE6-B4D4-9689-E053-A79B99BE2B56" name="Endereçp_Usuario_PK">
+<createdBy>guilh</createdBy>
+<createdTime>2025-11-04 17:17:52 UTC</createdTime>
+<generatorID>BEDAB60A-9ED8-0BF0-900E-F8D6DCDEA72E</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="646577C9-8B6B-ED57-11D1-07B32C29167D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

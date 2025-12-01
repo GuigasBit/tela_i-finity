@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('fonts.googleapis.com');
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #C34040;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+header{
+        background: #975B88;
+        color:hsl(0, 0%, 100%);
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+header h1{
+    font-size: 1.8rem;
+}
+header nav ul{
+    list-style: none; 
+    display: flex;
+    gap: 10px;
+}
+header nav ul a{
+    text-decoration: none;
+    color: #ffffff; 
+}

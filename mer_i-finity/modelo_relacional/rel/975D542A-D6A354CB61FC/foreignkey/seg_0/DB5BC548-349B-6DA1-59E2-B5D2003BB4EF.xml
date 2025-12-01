@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB5BC548-349B-6DA1-59E2-B5D2003BB4EF" containerWithKeyObject="C27B6B0F-E9A2-91D9-008A-A177EBECB644" localFKIndex="3AEDDEFC-AB7E-5AD8-EAF2-D5CB87AE9DB8" name="Adicionar_Itens_Fonte_Rendimento">
+<createdBy>guilh</createdBy>
+<createdTime>2025-11-04 17:17:52 UTC</createdTime>
+<generatorID>1D0D4037-D691-681C-5689-5E803D6B545A</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<referredTableLongName>T_MLI_Adicionar_Itens</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2A22A3F0-929C-E928-B2A8-D5DFCB0D4C23</referredTableID>
+<keyObject>BDAEA160-106B-3B17-1B7C-A1E8AA51EA73</keyObject>
+<referredKeyID>BDAEA160-106B-3B17-1B7C-A1E8AA51EA73</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_item</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

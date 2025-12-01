@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Endereco_Usuario_Cadastro" directorySegmentName="seg_0" id="D1E630DF-B500-A724-AAEC-F57428C9BDEA">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:55:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="975D542A-0144-8D36-7F80-D6A354CB61FC" value="true"/>
+</engineerTo>
+<sourcePk>BEDAB60A-9ED8-0BF0-900E-F8D6DCDEA72E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>343B7203-FC74-1C04-1E82-DEABC86954C6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>55EEC480-40C6-A884-822E-CE1AE8C0BDB5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

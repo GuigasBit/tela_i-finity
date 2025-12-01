@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F4745CA-0477-EA28-F2DB-379E7BEAB7EE" containerWithKeyObject="C27B6B0F-E9A2-91D9-008A-A177EBECB644" localFKIndex="C67CD279-AFCC-DCBB-A1ED-B035E145E728" name="Login_Fonte_Rendimento">
+<createdBy>guilh</createdBy>
+<createdTime>2025-11-04 17:17:52 UTC</createdTime>
+<generatorID>F1A31CB7-6E7A-80DC-D747-8F3F8C8B2B29</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<referredTableLongName>T_MLI_Login</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F61DECEE-C5A3-45DB-0E23-87AA5565C7E5</referredTableID>
+<keyObject>D17BCAC5-2256-2027-31F0-4BA8C90C5A0A</keyObject>
+<referredKeyID>D17BCAC5-2256-2027-31F0-4BA8C90C5A0A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_login</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

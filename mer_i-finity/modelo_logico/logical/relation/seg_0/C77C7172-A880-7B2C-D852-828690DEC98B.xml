@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Adicionar_Item_Gasto_Divida" directorySegmentName="seg_0" id="C77C7172-A880-7B2C-D852-828690DEC98B">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:44:35 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="975D542A-0144-8D36-7F80-D6A354CB61FC" value="true"/>
+</engineerTo>
+<sourcePk>D938769E-3E85-BDC1-04BE-B2BC6BAF5B53</sourcePk>
+<targetPk>DFA7CFA3-3A40-C323-F185-5C575C6032EC</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D1502DDE-2D54-8850-734D-FA047620D86D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2834FF88-15AB-27EF-77DE-E8B5559043F9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

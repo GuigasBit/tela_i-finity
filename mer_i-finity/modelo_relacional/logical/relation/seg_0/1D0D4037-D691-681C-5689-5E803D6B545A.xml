@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Adicionar_Itens_Fonte_Rendimento" directorySegmentName="seg_0" id="1D0D4037-D691-681C-5689-5E803D6B545A">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:45:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="975D542A-0144-8D36-7F80-D6A354CB61FC" value="true"/>
+</engineerTo>
+<sourcePk>6ECF83D6-4A84-2392-95BF-EC0402998F29</sourcePk>
+<targetPk>DFA7CFA3-3A40-C323-F185-5C575C6032EC</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EB6741B6-A319-0C41-1DB0-641ED077D261</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2834FF88-15AB-27EF-77DE-E8B5559043F9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

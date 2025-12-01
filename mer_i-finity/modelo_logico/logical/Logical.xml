@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="1588F518-557D-99AC-5EB9-24BFABA02D3D" mainViewID="FA7BF329-5BFB-83B9-2CC1-C8059A096EC1">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:21:24 UTC</createdTime>
+<ownerDesignName>modelo_logico_ifinity</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

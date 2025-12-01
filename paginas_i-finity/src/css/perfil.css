@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #C34040;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+header{
+    background: #975B88;
+        color:hsl(0, 0%, 100%);
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+header h1{
+    font-size: 1.8rem;
+}
+header nav ul{
+    list-style: none; 
+    display: flex;
+}
+header nav ul li{
+    margin-left: 20px;
+}
+header nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+header nav a:hover{
+    color:#fff;
+    text-decoration: underline;
+}
+.conteudo-principal{
+    padding: 30px 20px;
+    height: 100vh;
+}
+#titulo{
+    margin-bottom: 50px;
+    color:#975B88;
+}
+main{
+    max-width: 800px;
+    margin:0 auto;
+    margin-top: 5rem;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+main h2{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color:#000;
+    text-align: center;
+}
+fieldset{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+legend{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:#975B88;
+    padding: 0 10px;
+}
+div{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+input:not([type="range"],textarea){
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+input[type="range"]{
+    width: 80%;
+    vertical-align: middle;
+}
+.btn{
+    display: flex;
+    gap:10px;
+    margin-left: 100px;
+}
+textarea{
+    width: 80%;
+}
+button[type="submit"]{
+    display: block;
+    width: 40%;
+    padding: 12px;
+    background: #975B88;
+    color:#fff;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+button[type="reset"]{
+    display: block;
+    width: 40%;
+    padding: 12px;
+    background: #fff;
+    color:#975B88;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.rodape{
+    background: #975B88;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 90px;
+    margin-top: 40px;
+}

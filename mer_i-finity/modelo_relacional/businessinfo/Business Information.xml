@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="F02CFAE3-DAA3-89F8-7F00-2DE60A5829F3">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:21:24 UTC</createdTime>
+<ownerDesignName>modelo_logico_ifinity</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8EC8CBB2-3B08-0133-0D98-485BF3C2553D" containerWithKeyObject="D508AB18-7DE4-B0E2-DDA3-63A11EB69F48" localFKIndex="6EDB18CD-F4B7-933C-2CA6-6862688D0784" name="Adicionar_Item_Gasto_Divida">
+<createdBy>guilh</createdBy>
+<createdTime>2025-11-04 17:17:52 UTC</createdTime>
+<generatorID>C77C7172-A880-7B2C-D852-828690DEC98B</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<referredTableLongName>T_MLI_Adicionar_Itens</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2A22A3F0-929C-E928-B2A8-D5DFCB0D4C23</referredTableID>
+<keyObject>BDAEA160-106B-3B17-1B7C-A1E8AA51EA73</keyObject>
+<referredKeyID>BDAEA160-106B-3B17-1B7C-A1E8AA51EA73</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_item</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

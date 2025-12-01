@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="975D542A-0144-8D36-7F80-D6A354CB61FC" mainViewID="97B9B005-6786-EACA-D28A-3361ED4A4F9C">
+<createdBy>guilh</createdBy>
+<createdTime>2025-10-30 00:21:28 UTC</createdTime>
+<ownerDesignName>modelo_logico_ifinity</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
