@@ -23,10 +23,13 @@ body {
 header{
         background: #975B88;
         color:hsl(0, 0%, 100%);
-        padding: 4vh;
+        height: 10vh;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
 }
 header h1{
     font-size: 1.8rem;
@@ -43,13 +46,13 @@ header nav ul a{
 footer{
         background: #975B88;
         color:hsl(0, 0%, 100%);
-        padding: 4vh;
+        height: 10vh;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        position: fixed;
-        bottom: 0;
         width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
 }
 footer nav ul{
     list-style: none; 
@@ -74,6 +77,7 @@ footer nav ul a{
     color: #ffffff;
     cursor: pointer;
     padding: 20px;
+    text-decoration: none;
 }
 .btn_fundos{
     /*display: flex;
@@ -89,6 +93,7 @@ footer nav ul a{
     color: #ffffff;
     cursor: pointer;
     padding: 20px;
+    text-decoration: none;
 }
 .btn_item{
     /*display: flex;
@@ -104,31 +109,32 @@ footer nav ul a{
     color: #ffffff;
     cursor: pointer;
     padding: 20px;
+    text-decoration: none;
 }
 .button:hover {
     opacity: 0.8;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    height: calc(100vh - 20vh);
 }
 .container_btn{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
-    padding: 20px;
+    gap: 100px;
     text-decoration: none;
 }
-/*.adicionar_itens{
+.adicionar_itens{
     font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
-    padding: 20px;
     list-style: none; 
-    display: flex;
-    gap: 10px;
-    padding: 4vh;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-}*/
+}
