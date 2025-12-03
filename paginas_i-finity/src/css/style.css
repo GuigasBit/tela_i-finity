@@ -21,120 +21,136 @@ body {
     font-weight: 700;
 }
 header{
-        background: #975B88;
-        color:hsl(0, 0%, 100%);
-        height: 10vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
+    background: #975B88;
+    color:hsl(0, 0%, 100%);
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 header h1{
-    font-size: 1.8rem;
+    font-size: clamp(1.2rem, 5vw, 1.8rem);
 }
 header nav ul{
     list-style: none; 
     display: flex;
-    gap: 10px;
+    gap: clamp(8px, 2vw, 15px);
+    flex-wrap: wrap;
 }
 header nav ul a{
     text-decoration: none;
-    color: #ffffff; 
+    color: #ffffff;
+    font-size: clamp(0.8rem, 2vw, 1rem);
 }
 footer{
-        background: #975B88;
-        color:hsl(0, 0%, 100%);
-        height: 10vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
+    background: #975B88;
+    color:hsl(0, 0%, 100%);
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: auto;
 }
 footer nav ul{
     list-style: none; 
     display: flex;
-    gap: 10px;
+    gap: clamp(8px, 2vw, 15px);
+    flex-wrap: wrap;
 }
 footer nav ul a{
     text-decoration: none;
-    color: #ffffff; 
+    color: #ffffff;
+    font-size: clamp(0.8rem, 2vw, 1rem);
 }
 .btn_gasto{
-    /*display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    margin: 40px;*/
     border: black 1px solid;
     border-radius: 10px;
     background-color: #CE1E1E;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 4vw, 1.5rem);
     font-weight: bold;
     color: #ffffff;
     cursor: pointer;
-    padding: 20px;
+    padding: clamp(10px, 3vw, 20px);
     text-decoration: none;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+.btn_gasto:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
 }
 .btn_fundos{
-    /*display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    margin: 40px;*/
     border: black 1px solid;
     border-radius: 10px;
     background-color: #2EE21D;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 4vw, 1.5rem);
     font-weight: bold;
     color: #ffffff;
     cursor: pointer;
-    padding: 20px;
+    padding: clamp(10px, 3vw, 20px);
     text-decoration: none;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+.btn_fundos:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
 }
 .btn_item{
-    /*display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    margin: 40px;*/
     border: black 1px solid;
     border-radius: 10px;
     background-color: #53A292A3;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 4vw, 1.5rem);
     font-weight: bold;
     color: #ffffff;
     cursor: pointer;
-    padding: 20px;
+    padding: clamp(10px, 3vw, 20px);
     text-decoration: none;
+    transition: opacity 0.3s ease, transform 0.2s ease;
 }
-.button:hover {
-    opacity: 0.8;
+.btn_item:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
 }
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    align-items: center;     
-    height: calc(100vh - 20vh);
+    align-items: center;
+    min-height: calc(100vh - 120px);
+    padding: 20px;
 }
 .container_btn{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 100px;
+    gap: clamp(30px, 8vw, 100px);
     text-decoration: none;
+    width: 100%;
+    max-width: 600px;
 }
 .adicionar_itens{
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 4vw, 1.5rem);
     font-weight: bold;
     cursor: pointer;
     list-style: none; 
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
+}
+@media (min-width: 500px) and (max-width: 700px) {
+    
+    .btn_item, .btn_fundos, .btn_gasto {
+        padding: 5px;
+    }
+    .container_btn {
+        gap: 25px;
+    }
 }
